@@ -1,0 +1,46 @@
+{
+  "user": [
+    {
+      "name": "Mahaboob Basha",
+      "address": "Guntur123",
+      "email": "Mahaboob@gmail.com",
+      "contact": "9988776655",
+      "id": 5
+    },
+    {
+      "name": "Basha",
+      "address": "Kurnool",
+      "email": "Mahaboob@gmail.com",
+      "contact": "9988776655",
+      "id": 6
+    },
+    {
+      "name": "Irfan",
+      "address": "Banglore",
+      "email": "basha99@gmail.com",
+      "contact": "9900887766",
+      "id": 2
+    },
+    {
+      "name": "Basha",
+      "email": "bashan@gmail.com",
+      "contact": "903535307897",
+      "address": "Bangalore",
+      "id": 7
+    },
+    {
+      "name": "Najma Sulthana",
+      "email": "Najma9.pattan@gmail.com",
+      "contact": "56546463546",
+      "address": "2-16,Majsid Street, Near Noor High school, Boyalakuntla",
+      "id": 9
+    },
+    {
+      "name": "Irhann",
+      "email": "irhaan@gmail.com",
+      "contact": "3464356546",
+      "address": "2-16,Majsid Street, Near Noor High school, Boyalakuntla",
+      "id": 10
+    }
+  ]
+}
