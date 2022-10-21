@@ -24,6 +24,17 @@ const Home = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  // This useEffect is for disable the right in home page
+  //   useEffect(() => {
+  //     const handleContextmenu = (e) => {
+  //       e.preventDefault();
+  //     };
+  //     document.addEventListener("contextmenu", handleContextmenu);
+  //     return function cleanup() {
+  //       document.removeEventListener("contextmenu", handleContextmenu);
+  //     };
+  //   }, []);
+
   const handleDelete = (id) => {
     if (window.confirm("Are you sure wanted to delete the user...!")) {
       dispatch(deleteUser(id));

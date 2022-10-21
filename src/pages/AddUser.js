@@ -27,16 +27,16 @@ const AddUser = () => {
   const handleInputChange = (e) => {
     let { name, value } = e.target;
     setState({ ...state, [name]: value });
-  }; 
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!name || !email || !address || !contact) {
       setError("Please fill all the input fileds...!");
     } else {
-        dispatch(addUser(state));
-        navigate("/");
-        setError("");
+      dispatch(addUser(state));
+      navigate("/");
+      setError("");
     }
   };
 
@@ -52,7 +52,7 @@ const AddUser = () => {
         Go Back
       </Button>
       <h2> Add User</h2>
-      { error && <h3 style={{ color: "red"}}>{error}</h3>}
+      {error && <h3 style={{ color: "red" }}>{error}</h3>}
       <Box
         component="form"
         sx={{
@@ -74,7 +74,7 @@ const AddUser = () => {
         <TextField
           id="standard-basic"
           label="email"
-          type="email"
+          type="text"
           name="email"
           value={email}
           variant="standard"
